@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gestor de Tareas (TODO List) - Terminal Edition
 
-## Getting Started
+Aplicación web desarrollada con React y Next.js para la gestión eficiente de tareas diarias.
 
-First, run the development server:
+## Integrantes del Equipo
+* **Jhostin Ortiz** - (Desarrollador Individual)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Funcionalidades Principales (CRUD)
+*Crear: Agrega nuevas tareas escribiendo y presionando la tecla Enter.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*Leer y Filtrar: Visualiza todas tus tareas organizadas en pestañas de filtrado ([todas], [pendientes], [completadas]).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*Actualizar (Estado): Marca las tareas como completadas haciendo clic en la casilla.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*Actualizar (Edición): Haz clic sobre el texto de cualquier tarea para editarla al instante con autoguardado inteligente.
 
-## Learn More
+*Eliminar (La Papelera): Al presionar el botón de eliminar (X), la tarea se remueve de la lista activa y se transfiere automáticamente a la pestaña [papelera], registrando la hora exacta en la que fue borrada.
 
-To learn more about Next.js, take a look at the following resources:
+## Instalación y Ejecución
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para correr este proyecto en tu entorno local, sigue estos pasos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clona este repositorio o descarga el código fuente.
+2. Abre la terminal en la carpeta del proyecto e instala las dependencias:
+   ```bash              
+   npm run dev
+## Interfaz Visual
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![alt text](image.png)
