@@ -43,7 +43,7 @@ export default function TodoApp() {
         {/* Encabezado estilo Terminal */}
         <div style={{ borderBottom: '1px solid #30363d', paddingBottom: '20px', marginBottom: '25px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
           <div>
-            <h1 style={{ margin: 0, color: '#58a6ff', fontSize: '24px', letterSpacing: '1px' }}>~/gestor_tareas_grupal</h1>
+            <h1 style={{ margin: 0, color: '#58a6ff', fontSize: '24px', letterSpacing: '1px' }}>Mis tareas</h1>
             <p style={{ margin: '8px 0 0 0', color: '#8b949e', fontSize: '14px' }}>Estado: En ejecución...</p>
           </div>
           <span style={{ backgroundColor: '#238636', color: 'white', padding: '4px 10px', borderRadius: '4px', fontSize: '12px', fontWeight: 'bold' }}>
